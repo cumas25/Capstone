@@ -1,0 +1,19 @@
+# API keys
+.env*.local
+
+# OS
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Large raw data files (GitHub 100MB 제한)
+서울시 경사도/
+서울시 자치구별 도보 네트워크 공간정보.csv
+서울특별시_보행자 신호등 분포도.csv
+N3A_G0110000/
+1인가구(연령별)_20260427184906.csv
+250_LOCAL_RESD_20260402.csv
+OSMnx.py
